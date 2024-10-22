@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: PT Serif;
+}
+
+header {
+  background-color: #1c71d8;
+  text-align: left;
+  padding: 20px;
+}
+
+main {
+  background-color: #21edff;
+  padding: 60px;
+  width: 60%;
+  float: left;
+}
+
+aside {
+  background-color: #8ff0a4;
+  padding: 65px;
+  width: 40%;
+  float: right;
+}
+
+footer {
+  background-color: #f7e4b9;
+  text-align: left;
+  padding: 30px;
+}
+
+h1{
+  margin-bottom: 20px;
+}
