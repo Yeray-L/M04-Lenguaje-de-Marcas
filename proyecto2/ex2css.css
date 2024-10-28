@@ -1,0 +1,25 @@
+span {
+  display: block;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.aqua-center {
+  background: aqua;
+  color: blue;
+  text-align: center;
+  padding: 30px;
+}
+
+.silver-center {
+  background: silver;
+  color: red;
+  text-align: center;
+}
+
+.aqua-right {
+  background: aqua;
+  color: blue;
+  text-align: right;
+  padding: 30px;
+}

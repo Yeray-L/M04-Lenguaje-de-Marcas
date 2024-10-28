@@ -1,0 +1,29 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: yellow; /* Color de fons */
+}
+
+h1 {
+  color: orange;
+}
+
+ul {
+  font-size: 15px;
+}
+
+a:link {
+  color: red; /* Enllaços no visitats */
+}
+
+a:hover {
+  color: green; /* Al passar el punter */
+  text-decoration: none; /* Sense subratllat */
+}
+
+a:visited {
+  color: purple; /* Enllaços visitats */
+}
+
+a:active {
+  color: lime; /* Enllaç actiu */
+}
