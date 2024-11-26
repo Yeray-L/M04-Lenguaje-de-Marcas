@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recetas.xslt"?>
+<receptes>
+    <!-- Receta 4 -->
+    <recepta>
+        <nom>Bizcocho Pequeño</nom>
+        <autor>
+            <nom>Daniel Hernandez</nom>
+            <dni>45612378C</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Harina</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Leche</nom>
+                <quantitat>
+                    <valor>250</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Tamizar la harina.</pas>
+            <pas>Paso 2: Añadir leche y mezclar bien.</pas>
+            <pas>Paso 3: Cocinar a fuego lento.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 5 -->
+    <recepta>
+        <nom>Ajo Frito</nom>
+        <autor>
+            <nom>Yeray Lopez</nom>
+            <dni>15975384D</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Aceite de oliva</nom>
+                <quantitat>
+                    <valor>50</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Ajo</nom>
+                <quantitat>
+                    <valor>3</valor>
+                    <mesura>dientes</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Calentar el aceite en una sartén.</pas>
+            <pas>Paso 2: Añadir los ajos picados.</pas>
+            <pas>Paso 3: Dorar hasta que estén crujientes.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 6 -->
+    <recepta>
+        <nom>Espuma para bizcocho</nom>
+        <autor>
+            <nom>Marc Guerra</nom>
+            <dni>32145698E</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Azúcar</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Huevos</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Batir los huevos con azúcar.</pas>
+            <pas>Paso 2: Añadir a la mezcla principal.</pas>
+            <pas>Paso 3: Hornear durante 20 minutos a 180°C.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 7 -->
+    <recepta>
+        <nom>Ensalada Básica</nom>
+        <autor>
+            <nom>Rafael Guiotto</nom>
+            <dni>74185296F</dni>
+        </autor>
+        <ingredients>
+            <ingredient>groups: no s’ha pogut trobar el nom de l’ID de grup 329380010
+                daniel.hernandez.zerpa.7e7@HA208-34-ZLV-036:~/Escriptori/DADES/DanYy/M04_Llenguatge_De_Marques$ xsltproc recetas.xslt recetas.xml > resultado.html
+                No s'ha trobat l'ordre 'xsltproc', però pot ser instal·lada amb:
+                apt install xsltproc
+                daniel.hernandez.zerpa.7e7@HA208-34-ZLV-036:~/Escriptori/DADES/DanYy/M04_Llenguatge_De_Marques$ 
+                <nom>Tomate</nom>
+                <quantitat>
+                    <valor>5</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Albahaca</nom>
+                <quantitat>
+                    <valor>10</valor>
+                    <mesura>hojas</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Cortar los tomates en rodajas.</pas>
+            <pas>Paso 2: Añadir hojas de albahaca fresca.</pas>
+            <pas>Paso 3: Aliñar con aceite y sal al gusto.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 8 -->
+    <recepta>
+        <nom>Toques Pasta Carbonara</nom>
+        <autor>
+            <nom>Francisco Javier Cabello</nom>
+            <dni>85296374G</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Queso parmesano</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pimienta negra</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Rallar el queso parmesano.</pas>
+            <pas>Paso 2: Espolvorear pimienta al gusto.</pas>
+            <pas>Paso 3: Mezclar bien antes de servir.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 9 a 15 -->
+    <!-- Sigue el mismo patrón -->
+    
+    <!-- Receta 9 -->
+    <recepta>
+        <nom>Marinaje Pollo</nom>
+        <autor>
+            <nom>Oriol Boix</nom>
+            <dni>96325874H</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Pollo</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>kilogramo</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Curry</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharadas</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Cortar el pollo en trozos.</pas>
+            <pas>Paso 2: Marinar con curry durante 30 minutos.</pas>
+            <pas>Paso 3: Cocinar a fuego alto hasta dorar.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 10 -->
+    <recepta>
+        <nom>Arroz con Guisantes</nom>
+        <autor>
+            <nom>Roberto Carlos</nom>
+            <dni>74196325I</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Arroz</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Guisantes</nom>
+                <quantitat>
+                    <valor>150</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Hervir el arroz.</pas>
+            <pas>Paso 2: Añadir los guisantes cocidos.</pas>
+            <pas>Paso 3: Servir caliente.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 11 -->
+    <recepta>
+        <nom>Calabacín a la plancha</nom>
+        <autor>
+            <nom>Ronaldinho</nom>
+            <dni>75315962J</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Calabacín</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Sal</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Cortar el calabacín en rodajas finas.</pas>
+            <pas>Paso 2: Sazonar con sal.</pas>
+            <pas>Paso 3: Asar a la parrilla hasta dorar.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 12 -->
+    <recepta>
+        <nom>Limonada</nom>
+        <autor>
+            <nom>Liones Andres Messi</nom>
+            <dni>15963274K</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Miel</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Limón</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Exprimir el limón.</pas>
+            <pas>Paso 2: Mezclar el jugo con miel.</pas>
+            <pas>Paso 3: Servir frío.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 13 -->
+    <recepta>
+        <nom>Pollo Panko</nom>
+        <autor>
+            <nom>Andres Iniesta</nom>
+            <dni>96325874L</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Pollo</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>kilogramo</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Panko</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharadas</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Cortar el pollo en trozos.</pas>
+            <pas>Paso 2: Rebozarlo en panko y huevo.</pas>
+            <pas>Paso 3: Freir en aceite bien caliente.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 14 -->
+
+    <recepta>
+        <nom>Arroz con gambas</nom>
+        <autor>
+            <nom>Alfredo Dominguez</nom>
+            <dni>74196325M</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Arroz</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Gambas</nom>
+                <quantitat>
+                    <valor>150</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Hervir el arroz.</pas>
+            <pas>Paso 2: Gambas salteadas por encima</pas>
+            <pas> Paso 3: Servir caliente.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 15 -->
+
+    <recepta>
+        <nom>Torrijas</nom>
+        <autor>
+            <nom>Antonio Da Silva</nom>
+            <dni>75315962N</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Pan</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Leche</nom>
+                <quantitat>
+                    <valor>400</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Paso 1: Mojar el pan en leche,canela y dejar reposar.</pas>
+            <pas>Paso 2: Añadirlo a la sarten con mantequilla.</pas>
+            <pas>Paso 3: Retirarlo y espolvorear azucar glas.</pas>
+        </passos>
+    </recepta>
+</receptes>

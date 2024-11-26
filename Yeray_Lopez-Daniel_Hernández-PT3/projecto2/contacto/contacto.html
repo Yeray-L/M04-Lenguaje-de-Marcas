@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicias Kitchen rgs-mgh</title>
+  <link rel="stylesheet" href="../css/ex1.css">
+</head>
+<body>
+  <div id="main">
+    <header>
+      <img id="imagen1" src="../imagenes/Logo-Delicias.png" alt="Delicias">
+      <hr>
+      <ul id="menu">
+        <a id="menub" href="../ex1.html">INICIO</a>
+        <a id="menub" href="../sobre_mi/sobremi.html">SOBRE MÍ</a>
+        <a id="menub" href="../receta/receta.html">RECETAS</a>
+        <a id="menub" href="../contacto/contacto.html">CONTACTO</a>
+        <a id="menub" href="../listado/listado.html">OTRAS COSAS</a>
+      </ul>
+      <hr>
+    </header>
+    
+    <div id="formulario-container">
+      <header>
+        <h1>Formulario de Alta</h1>
+        <hr>
+      </header>
+
+      <form action="/path/to/your/server" method="GET">
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <!-- Correo Electrónico -->
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Tipo de Registro -->
+        <label for="tipo_registro">Tipo de Registro:</label><br>
+        <select id="tipo_registro" name="tipo_registro" required>
+          <option value="comentario">Comentario</option>
+          <option value="nueva_receta">Nueva Receta</option>
+        </select><br><br>
+
+        <!-- Comentario o Receta -->
+        <label for="contenido">Comentario o Receta:</label><br>
+        <textarea id="contenido" name="contenido" rows="4" required></textarea><br><br>
+
+        <!-- Categoría de la Receta (Opcional) -->
+        <fieldset>
+          <legend>Categoría de la Receta (Opcional)</legend>
+          <input type="checkbox" id="vegano" name="categoria" value="vegano">
+          <label for="vegano">Vegano</label><br>
+          <input type="checkbox" id="sin_gluten" name="categoria" value="sin_gluten">
+          <label for="sin_gluten">Sin Gluten</label><br>
+          <input type="checkbox" id="vegetariano" name="categoria" value="vegetariano">
+          <label for="vegetariano">Vegetariano</label><br>
+          <input type="checkbox" id="sin_lactosa" name="categoria" value="sin_lactosa">
+          <label for="sin_lactosa">Sin Lactosa</label><br>
+        </fieldset><br>
+
+        <!-- Botón de Enviar -->
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <ul id="menu2">
+        <a id="menuc" target="_blank" href="https://www.facebook.com">FACEBOOK</a>
+        <a id="menuc" target="_blank" href="https://www.x.com">TWITTER</a>
+        <a id="menuc" target="_blank" href="https://www.instagram.com">INSTAGRAM</a>
+        <a id="menuc" target="_blank" href="https://www.pinterest.com">PINTEREST</a>
+        <a id="menuc" target="_blank" href="mailto:daniel.hernandez.zerpa.7e7@itb.cat">EMAIL</a>
+        <a id="menuc" target="_blank" href="./index.html">RSS</a>
+      </ul>
+    </ul>
+  </footer>
+</body>
+</html>
